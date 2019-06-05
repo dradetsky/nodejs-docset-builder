@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-docset-builder",
+  "version": "0.0.0",
+  "description": "build a dash docset for nodejs",
+  "main": "src/index.js",
+  "author": "Daniel Radetsky <dradetsky@gmail.com>",
+  "license": "WTFPL",
+  "scripts": {
+    "test": "node src/mkdb.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^5.4.0",
+    "glob": "^7.1.4"
+  }
+}
